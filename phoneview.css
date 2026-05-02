@@ -1,11 +1,17 @@
+html{
+    scroll-behavior: smooth;
+}
+
 /* Navigation */
 
 #navbar{
     flex-direction: column;
 }
 #navbar ul a {
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     padding-bottom: 5px;
+    font-weight: 600;
+    padding: 06px 12px;
 }
 .btn {
     font-size: 1.0rem;
@@ -41,7 +47,7 @@
 }
 
 #clients img{
-    height: 69px;
+    height: 70px;
     padding: 5px;
     
 
@@ -50,6 +56,15 @@
 
 /* Contact us Section */
 
+#contact-box input,
+#contact-box textarea{
+
+    padding: 8px;
+    width: 90%;
+    font-size: 1.2rem;
+    border-radius: 9px;
+    font-family: "Bree Serif", serif;
+}
 
 
 
@@ -58,4 +73,9 @@
 .h-primary{
     font-size: 2.2rem;
 
+}
+/* Footer Section */
+
+footer{
+    font-size: 0.8rem;
 }
