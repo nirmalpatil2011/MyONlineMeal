@@ -6,6 +6,7 @@ html{
 
 #navbar{
     flex-direction: column;
+    position:sticky;
 }
 #navbar ul a {
     font-size: 1.0rem;
