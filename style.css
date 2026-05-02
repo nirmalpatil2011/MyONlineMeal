@@ -1,4 +1,9 @@
 /* CSS Reset */
+
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -235,7 +240,22 @@
     font-family: "Bree Serif", serif;
 }
 
+.btn-sub{
+    padding: 5px;
+    color: white;
+    background-color: brown;
+    border: 2px solid white;
+    border-radius: 07px;
+    margin: 6px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    
+}
 
+#btn-container{
+    display: flex;
+    justify-content: center;
+}
 
 /* Footer */
 
